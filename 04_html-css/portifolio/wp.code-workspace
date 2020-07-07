@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../ConteudoWeb"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "portifolio"
+	}
+}
