@@ -1,0 +1,51 @@
+    body {
+        background-color: #EFA9AE;
+        color: #190B28;
+    }
+    
+    #nome {
+        font-family: Georgia, serif;
+    }
+    
+    #bio {
+        font-family: Cambria, serif;
+    }
+    
+    #bio em:last-child {
+        color: #685762;
+        font-family: Georgia, serif;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+    
+    #foto {
+        border-radius: 15%;
+    }
+    
+    .tech {
+        color: #9B9987;
+    }
+    
+    .visuals {
+        color: #E55381;
+    }
+    
+    .personal {
+        color: #685762;
+    }
+    
+    .skill-big {
+        font-size: 3em;
+    }
+    
+    .skill-med {
+        font-size: 2em;
+    }
+    
+    .skill-small {
+        font-size: 1em;
+    }
+    
+    li {
+        display: inline;
+    }
