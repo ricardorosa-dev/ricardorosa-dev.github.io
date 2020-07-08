@@ -3,23 +3,65 @@
         color: #190B28;
     }
     
-    #nome {
+    .nome {
         font-family: Georgia, serif;
     }
     
-    #bio {
+    .nameclass {
+        margin: auto;
+        border: 1px solid black;
+        width: 0px;
+        float: right;
+    }
+    
+    .indice {
+        border: 0px solid red;
+        width: 100px;
+        margin: auto;
+        float: left;
+        text-align: right;
+        font-family: Georgia, serif;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+    .indice a {
+        color: #190B28;
+        text-decoration: none;
+    }
+    
+    .indice a:hover {
+        color: #E55381;
+    }
+    
+    .indice-spacer {
+        margin-bottom: 10px;
+    }
+    
+    .centerpiece {
+        border: 0px solid black;
+        width: 110px;
+        margin: auto;
+    }
+    
+    .spacer {
+        width: 600px;
+        height: 180px;
+    }
+    
+    .bio {
         font-family: Cambria, serif;
         margin: 0px;
     }
     
-    #bio em:last-child {
+    .bio em:last-child {
         color: #685762;
         font-family: Georgia, serif;
         font-weight: bold;
         font-size: 1.2em;
     }
     
-    #foto {}
+    .foto {}
     
     .skills {
         border: 0px solid red;
@@ -59,12 +101,6 @@
     
     li {
         display: inline;
-    }
-    
-    .nameclass {
-        margin: auto;
-        border: 1px solid black;
-        width: 0px;
     }
     
     .photoclass {
