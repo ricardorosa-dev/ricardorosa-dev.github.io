@@ -9,6 +9,7 @@
     
     #bio {
         font-family: Cambria, serif;
+        margin: 0px;
     }
     
     #bio em:last-child {
@@ -18,12 +19,11 @@
         font-size: 1.2em;
     }
     
-    #foto {
-        border-radius: 15%;
-    }
+    #foto {}
     
     .tech {
         color: #9B9987;
+        top: 1000px;
     }
     
     .visuals {
@@ -48,4 +48,26 @@
     
     li {
         display: inline;
+    }
+    
+    .nameclass {
+        margin: auto;
+        border: 1px solid black;
+        width: 0px;
+    }
+    
+    .photoclass {
+        border: 3px solid #190B28;
+        float: left;
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+    
+    .descriptionclass {
+        width: 250px;
+        margin: 25px 0px 120px 220px;
+        padding-left: 10px;
+        border: 0px solid black;
     }
