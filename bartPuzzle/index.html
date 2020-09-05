@@ -1,7 +1,7 @@
 <html>
 
 <head>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       margin: 0;
@@ -104,7 +104,6 @@
 
   <script>
 
-
     const squares = document.getElementsByTagName('div');
 
     function randomizeBoard() {
@@ -184,7 +183,7 @@
         if (selected) { // só funciona quando tiver algum quadrado selecionado
           selectedEl = document.querySelector('.selected');
           clickedEl = document.querySelector('.clicked');
-          console.log(selectedEl)
+          // console.log(selectedEl)
           let currentSquareNumber;
           let squareChange;
 
@@ -208,7 +207,7 @@
             // console.log(`O elemento pode ir pra baixo`);
             currentSquareNumber = selectedEl.id.split('-')[1];
             squareChange = squareArray[Number(currentSquareNumber) + 2];
-            console.log(squareChange);
+            // console.log(squareChange);
 
             const currentSquareHTML = selectedEl.innerHTML;
             selectedEl.innerHTML = squareChange.innerHTML;
@@ -225,7 +224,7 @@
             // console.log(`O elemento pode ir pra esquerda`);
             currentSquareNumber = selectedEl.id.split('-')[1];
             squareChange = squareArray[Number(currentSquareNumber) - 2];
-            console.log(squareChange)
+            // console.log(squareChange)
 
             const currentSquareHTML = selectedEl.innerHTML;
             selectedEl.innerHTML = squareChange.innerHTML;
@@ -268,6 +267,9 @@
             selectedEl.classList.remove('clicked')
             selectedEl.classList.remove('selected')
             selected = false;
+
+            var snd = new Audio("clapping.wav"); // buffers automatically when created
+            snd.play();
           }
         }
       });
@@ -277,6 +279,9 @@
       document.getElementById('ID').play();
       document.removeEventListener('click', musicPlay);
     }
+
+
+
 
     window.onload = function () {
       randomizeBoard();
