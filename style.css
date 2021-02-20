@@ -144,7 +144,7 @@ main .main-text {
 .work {
   /* border: 1px solid pink; */
   width: 1vp;
-  height: 900px;
+  height: 1300px;
   background-color: #083129;
 }
 
@@ -179,6 +179,11 @@ main .main-text {
 }
 
 .project img {
+  width: 400px;
+  border-radius: 15px;
+}
+
+.project video {
   width: 400px;
   border-radius: 15px;
 }

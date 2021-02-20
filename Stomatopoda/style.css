@@ -1,0 +1,230 @@
+    body {
+        margin: 0px;
+        background-image: url("img/bg.jpg");
+        background-size: cover;
+    }
+    
+    a {
+        text-decoration: none;
+        color: inherit;
+        font-variant: small-caps;
+    }
+    
+    article a {
+        font-variant: none;
+    }
+    
+    a:hover {
+        color: #931621;
+    }
+    
+    nav {
+        border: 0px solid red;
+        display: inline-block;
+        padding-right: 0px;
+    }
+    
+    nav li {
+        display: inline;
+        padding-right: 10px;
+        font-size: 18px;
+        padding-right: 25px;
+    }
+    
+    main {
+        border: 0px solid red;
+        color: #0A000A;
+        background-color: #fff6f7;
+        margin-top: 0px;
+        padding-bottom: 10px;
+        width: 1200px;
+        margin: auto;
+        overflow: auto;
+    }
+    
+    article {
+        border: 0px solid red;
+        width: 800px;
+        margin-left: 20px;
+        float: left;
+        background-color: #fff6f7;
+    }
+    
+    main h1 {
+        border: 0px solid red;
+        font-size: 48px;
+        text-align: center;
+        margin: 0px;
+        margin-top: 20px;
+    }
+    
+    main h2 {
+        border: 0px solid red;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    
+    footer {
+        background-color: #0A000A;
+        color: #EEE0CB;
+    }
+    
+    img {
+        margin: 0px 15px 0px 0px;
+        border: 1px solid #BFD7EA;
+        padding: 10px;
+    }
+    
+    .img-1 {
+        float: left;
+    }
+    
+    .img-2 {
+        float: right;
+        margin-left: 10px;
+    }
+    
+    .img-3 {
+        float: right;
+        margin-left: 10px;
+        margin-bottom: 3px;
+    }
+    
+    table {
+        border: 0px solid #839788;
+        margin: auto;
+    }
+    
+    table tr td:first-child {
+        text-align: right;
+        font-weight: bold;
+    }
+    
+    td {
+        background-color: #BAA898;
+        padding: 0px 8px;
+    }
+    
+    h3 {
+        margin-top: 50px;
+        background-color: #0A000A;
+        color: #EEE0CB;
+        display: table;
+    }
+    
+    .dot-green {
+        height: 11px;
+        width: 11px;
+        background-color: green;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    
+    .dot-blue {
+        height: 11px;
+        width: 11px;
+        background-color: blue;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    
+    .dot-red {
+        height: 11px;
+        width: 11px;
+        background-color: red;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    
+    .dot-transp {
+        height: 9px;
+        width: 9px;
+        background-color: rgba(255, 255, 255, 0);
+        border: 1px solid black;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    
+    img {
+        width: 300px;
+    }
+    
+    header {
+        border: 0px solid red;
+        background-color: #0A000A;
+        color: #EEE0CB;
+    }
+    
+    header h1 {
+        display: inline-block;
+        border: 0px solid red;
+        text-align: right;
+        width: 880px;
+    }
+    
+    aside {
+        font-size: 14px;
+        border: 0px solid green;
+        float: right;
+        width: 290px;
+        margin-right: 20px;
+        overflow-wrap: break-word;
+        padding-right: 20px;
+        margin-top: 100px;
+        background-color: #BFD7EA;
+        mask-image: url("img/text.png");
+    }
+    
+    aside p {
+        border: 0px solid red;
+        margin-left: 40px;
+        text-align: center;
+    }
+    
+    aside lh {
+        font-size: 19px;
+        font-weight: bold;
+        display: block;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    
+    aside iframe {
+        margin: 10px 0px;
+        border: 1px solid #0A000A;
+    }
+    
+    footer {
+        clear: both;
+        border: 1px solid black;
+        padding: 10px;
+        text-align: right;
+        font-size: 17px;
+        overflow: auto;
+        //box-shadow: 0px 0px 50px 15px grey;
+    }
+    
+    footer wrapper {
+        float: right;
+        border: 0px solid red;
+        display: table;
+    }
+    
+    .footer-info {
+        border: 0px solid green;
+        float: left;
+        margin-top: 20px;
+    }
+    
+    .footer-foto {
+        border: 0px solid blue;
+        float: right;
+    }
+    
+    .footer-foto img {
+        width: 60px;
+        margin: 0px;
+        border-radius: 50%;
+        border: 0px;
+    }
