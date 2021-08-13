@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>Pixel Art</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1 id="title">Paleta de Cores</h1>
+      <p>Crie seu pixel art abaixo!</p>
+    </header>
+
+    <nav id="color-palette">
+      <div class="color" id="black"></div>
+      <div class="color" id="red"></div>
+      <div class="color" id="yellow"></div>
+      <div class="color" id="gray"></div>
+    </nav>
+
+    <!-- Seção de Customização, tamanho do quadro e limpar -->
+    <section>
+      <div id="size-wrapper">
+        <input
+          id="board-size"
+          type="number"
+          placeholder="TAMANHO DO QUADRO"
+          min="1"
+          max="50"
+        />
+        <p id="generate-board">#VQV</p>
+      </div>
+
+      <p id="clear-board">Limpar</p>
+    </section>
+
+    <!-- Quadro de pixels -->
+    <section>
+      <table id="pixel-board"></table>
+    </section>
+
+    <input type="color" value="#ff0000" id="colorWell" />
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
