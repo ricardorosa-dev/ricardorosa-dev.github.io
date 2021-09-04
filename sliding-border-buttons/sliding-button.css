@@ -1,0 +1,95 @@
+.position-setter {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  height: 35px;
+  position: relative;
+  color: inherit;
+  text-decoration: none;
+  margin: auto;
+  font-size: 30px;
+  padding: 5px 20px;
+}
+
+.left-top {
+  margin: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color:black;
+  height: 2px;
+  width: 100%;
+  transition: linear .6s;
+}
+
+a:hover .left-top {
+  width: 0;
+}
+
+.right1, .right2 {
+  margin: 0;
+  position: absolute;
+  background-color: black;
+  height: 100%;
+  width: 2px;
+  transition: linear .5s;
+}
+
+.right1 {
+  right: 12px;
+  top: 0;
+}
+
+.right2 {
+  right: 0;
+  bottom: 0;
+}
+
+a:hover .right1, a:hover .right2 {
+  height: 0;
+}
+
+.right-bottom {
+  margin: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color:black;
+  height: 2px;
+  width: 100%;
+  transition: linear .6s;
+}
+
+a:hover .right-bottom {
+  width: 0;
+}
+
+.left1, .left2 {
+  margin: 0;
+  position: absolute;
+  background-color:black;
+  height: 100%;
+  width: 2px;
+  transition: linear .5s;
+}
+
+.left1 {
+  left: 0px;
+  top: 0px;
+}
+
+a:hover .left1 {
+  height: 0;
+}
+
+.left2 {
+  left: 12px;
+  bottom: 0px;
+}
+
+a:hover .left2 {
+  height: 0;
+}
